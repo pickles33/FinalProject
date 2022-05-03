@@ -1,4 +1,4 @@
-function validateForm() {
+**function validateForm() {
   var specialChars = /[^a-zA-Z0-9 ]/g;
   let alias = document.forms["myForm"]["alias"].value;
   let fav = document.forms["myForm"]["fav"].value;
@@ -23,7 +23,7 @@ function validateForm() {
   
     else  {
 
-
+/*
 
 localStorage.setItem('ls_alias', alias);
 localStorage.setItem('ls_fav', fav);
@@ -31,7 +31,7 @@ localStorage.setItem('ls_age', age);
 localStorage.setItem('ls_pet', pet);
 localStorage.setItem('ls_icecream', icecream);
 localStorage.setItem('noFirstVisit', 0);
-
+*/
 return true;
 
       
