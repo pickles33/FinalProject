@@ -1,0 +1,30 @@
+#first {
+    display: none;
+}
+
+.carousel-item img {
+height: 300px !important;
+width: 300px !important;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#Header img{
+  height: 300px !important;
+width: 300px !important;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
