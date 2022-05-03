@@ -1,0 +1,22 @@
+This will serve as the documentation for the website and also explain the functionality of the website
+
+My website is comprised of 5 html files:
+
+index.html - this page hosts the form for first time visitors. The website makes use of localstorage to save the form values to suit the forum experience for users better. Once they have filled out the form, they will never see the form again unless they clear their cache/cookies. This html page also displays the advanced API which is link preloading. Link preloading allows for faster loading times on a page. I used it to load the pictures on the home page carousel faster.
+
+
+codingForum.html - this page has the fake forum post and a reply function that covers the requirement. It will show your alias you chose on the form and it will also display the comment you made under the fake post.
+
+gameForum.html - this is the same as codingForum
+
+randomForum.html - this is the same as gameForum 
+
+settings.html - this page allows the user to change their alias and age field that they submitted on their field. The two buttons that change the values covers the javascript requirements for the requirements document.
+
+There are 3 scripts:
+
+script.js - this takes care of telling whether the visitor is a newcomer or not. If they are a newcomer the form will display askign them to fill out their information. If not, it will just display the carousel.
+
+script2.js - this takes care of the form validation and checking if the inputs are not special characters. It also stores the values of the form in localstorage
+
+script3.js - this takes care of the settings.html where the user has to press the button to change their information. It also takes care of the fake forum posts. This covers 4 out of 4 of the js requiments.
